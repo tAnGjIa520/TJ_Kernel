@@ -1,0 +1,27 @@
+The system is: Windows - 10.0.26100 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe 
+Build flags: -g;-c;-O0;-m32;-fno-pie;-fno-stack-protector;-fno-asynchronous-unwind-tables
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/3.23.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe 
+Build flags: -g;-c;-O0;-m32;-fno-pie;-fno-stack-protector;-fno-asynchronous-unwind-tables
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/3.23.1/CompilerIdC/CMakeCCompilerId.o"
+

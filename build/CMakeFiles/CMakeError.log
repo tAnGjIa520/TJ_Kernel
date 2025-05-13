@@ -1,0 +1,166 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_1ca52/fast && D:/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_1ca52.dir/build.make CMakeFiles/cmTC_1ca52.dir/build
+make[1]: Entering directory 'D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ca52.dir/CMakeCCompilerABI.c.obj
+D:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables    -v -o CMakeFiles/cmTC_1ca52.dir/CMakeCCompilerABI.c.obj -c "D:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=D:\x86_64-elf-tools-windows\bin\x86_64-elf-gcc.exe
+Target: x86_64-elf
+Configured with: ../gcc-7.1.0/configure --host=i686-w64-mingw32.static --target=x86_64-elf --disable-nls --enable-languages=c,c++ --without-headers --prefix=/root/build-x86_64-elf/windows/output
+Thread model: single
+gcc version 7.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_1ca52.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ d:/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/cc1.exe -quiet -v -iprefix d:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/ D:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1ca52.dir/CMakeCCompilerABI.c.obj -g -O0 -version -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -o D:\Temp\cc6nDIQT.s
+GNU C11 (GCC) version 7.1.0 (x86_64-elf)
+	compiled by GNU C version 5.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "d:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/sys-include"
+ignoring nonexistent directory "d:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/include"
+ignoring duplicate directory "d:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/include"
+ignoring duplicate directory "d:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/include-fixed"
+ignoring nonexistent directory "d:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/sys-include"
+ignoring nonexistent directory "d:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/include
+ d:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/include-fixed
+End of search list.
+GNU C11 (GCC) version 7.1.0 (x86_64-elf)
+	compiled by GNU C version 5.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b00064cd55ffce4efe95d0fcd6948296
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_1ca52.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/as.exe --32 -o CMakeFiles/cmTC_1ca52.dir/CMakeCCompilerABI.c.obj D:\Temp\cc6nDIQT.s
+COMPILER_PATH=d:/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/;d:/x86_64-elf-tools-windows/bin/../libexec/gcc/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/
+LIBRARY_PATH=d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/lib/
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_1ca52.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_1ca52.exe
+"D:/Program Files (x86)/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_1ca52.dir/objects.a
+D:/x86_64-elf-tools-windows/bin/x86_64-elf-ar.exe qc CMakeFiles/cmTC_1ca52.dir/objects.a @CMakeFiles/cmTC_1ca52.dir/objects1.rsp
+D:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables   -v -Wl,--whole-archive CMakeFiles/cmTC_1ca52.dir/objects.a -Wl,--no-whole-archive -o cmTC_1ca52.exe -Wl,--out-implib,libcmTC_1ca52.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe
+Target: x86_64-elf
+Configured with: ../gcc-7.1.0/configure --host=i686-w64-mingw32.static --target=x86_64-elf --disable-nls --enable-languages=c,c++ --without-headers --prefix=/root/build-x86_64-elf/windows/output
+Thread model: single
+gcc version 7.1.0 (GCC) 
+COMPILER_PATH=d:/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/;d:/x86_64-elf-tools-windows/bin/../libexec/gcc/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/
+LIBRARY_PATH=d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/lib/
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'cmTC_1ca52.exe' '-mtune=generic' '-march=x86-64'
+x86_64-elf-gcc.exe: warning: CMakeFiles/cmTC_1ca52.dir/objects.a: linker input file unused because linking not done
+make[1]: Leaving directory 'D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/3.23.1/CMakeDetermineCompilerABI_C.bin'
+Unable to find the executable at any of:
+  D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp/cmTC_1ca52.exe
+  D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp/Debug/cmTC_1ca52.exe
+  D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp/Development/cmTC_1ca52.exe
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_bb6ee/fast && D:/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_bb6ee.dir/build.make CMakeFiles/cmTC_bb6ee.dir/build
+make[1]: Entering directory 'D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb6ee.dir/testCCompiler.c.obj
+D:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -o CMakeFiles/cmTC_bb6ee.dir/testCCompiler.c.obj -c "D:/Desktop/浠?鎵嬪啓鑷繁鐨凩inux x86鎿嶄綔绯荤粺/婧愮爜+寮€鍙戝伐鍏?鍙傝€冭祫鏂?纾佺洏鏄犲儚/婧愮爜+璇句欢+寮€鍙戝伐鍏?鍙傝€冭祫鏂?纾佺洏鏄犲儚/璇剧▼婧愮爜/start/test/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+x86_64-elf-gcc.exe: error: D:/Desktop/浠?鎵嬪啓鑷繁鐨凩inux x86鎿嶄綔绯荤粺/婧愮爜+寮€鍙戝伐鍏?鍙傝€冭祫鏂?纾佺洏鏄犲儚/婧愮爜+璇句欢+寮€鍙戝伐鍏?鍙傝€冭祫鏂?纾佺洏鏄犲儚/璇剧▼婧愮爜/start/test/build/CMakeFiles/CMakeTmp/testCCompiler.c: Invalid argument
+x86_64-elf-gcc.exe: fatal error: no input files
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_bb6ee.dir/build.make:78: CMakeFiles/cmTC_bb6ee.dir/testCCompiler.c.obj] Error 1
+make[1]: Leaving directory 'D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_bb6ee/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_a3ac3/fast && D:/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_a3ac3.dir/build.make CMakeFiles/cmTC_a3ac3.dir/build
+make[1]: Entering directory 'D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3ac3.dir/CMakeCCompilerABI.c.obj
+D:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables    -v -o CMakeFiles/cmTC_a3ac3.dir/CMakeCCompilerABI.c.obj -c "D:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=D:\x86_64-elf-tools-windows\bin\x86_64-elf-gcc.exe
+Target: x86_64-elf
+Configured with: ../gcc-7.1.0/configure --host=i686-w64-mingw32.static --target=x86_64-elf --disable-nls --enable-languages=c,c++ --without-headers --prefix=/root/build-x86_64-elf/windows/output
+Thread model: single
+gcc version 7.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_a3ac3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ d:/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/cc1.exe -quiet -v -iprefix d:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/ D:/Program Files (x86)/CMake/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a3ac3.dir/CMakeCCompilerABI.c.obj -g -O0 -version -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -o D:\Temp\ccjBFI2o.s
+GNU C11 (GCC) version 7.1.0 (x86_64-elf)
+	compiled by GNU C version 5.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "d:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/sys-include"
+ignoring nonexistent directory "d:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/include"
+ignoring duplicate directory "d:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/include"
+ignoring duplicate directory "d:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/include-fixed"
+ignoring nonexistent directory "d:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/sys-include"
+ignoring nonexistent directory "d:/x86_64-elf-tools-windows/lib/gcc/../../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/include
+ d:\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/include-fixed
+End of search list.
+GNU C11 (GCC) version 7.1.0 (x86_64-elf)
+	compiled by GNU C version 5.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b00064cd55ffce4efe95d0fcd6948296
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_a3ac3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/as.exe --32 -o CMakeFiles/cmTC_a3ac3.dir/CMakeCCompilerABI.c.obj D:\Temp\ccjBFI2o.s
+COMPILER_PATH=d:/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/;d:/x86_64-elf-tools-windows/bin/../libexec/gcc/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/
+LIBRARY_PATH=d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/lib/
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_a3ac3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_a3ac3.exe
+"D:/Program Files (x86)/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_a3ac3.dir/objects.a
+D:/x86_64-elf-tools-windows/bin/x86_64-elf-ar.exe qc CMakeFiles/cmTC_a3ac3.dir/objects.a @CMakeFiles/cmTC_a3ac3.dir/objects1.rsp
+D:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables   -v -Wl,--whole-archive CMakeFiles/cmTC_a3ac3.dir/objects.a -Wl,--no-whole-archive -o cmTC_a3ac3.exe -Wl,--out-implib,libcmTC_a3ac3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe
+Target: x86_64-elf
+Configured with: ../gcc-7.1.0/configure --host=i686-w64-mingw32.static --target=x86_64-elf --disable-nls --enable-languages=c,c++ --without-headers --prefix=/root/build-x86_64-elf/windows/output
+Thread model: single
+gcc version 7.1.0 (GCC) 
+COMPILER_PATH=d:/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/;d:/x86_64-elf-tools-windows/bin/../libexec/gcc/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/
+LIBRARY_PATH=d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/;d:/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/lib/
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'cmTC_a3ac3.exe' '-mtune=generic' '-march=x86-64'
+x86_64-elf-gcc.exe: warning: CMakeFiles/cmTC_a3ac3.dir/objects.a: linker input file unused because linking not done
+make[1]: Leaving directory 'D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/3.23.1/CMakeDetermineCompilerABI_C.bin'
+Unable to find the executable at any of:
+  D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp/cmTC_a3ac3.exe
+  D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp/Debug/cmTC_a3ac3.exe
+  D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp/Development/cmTC_a3ac3.exe
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_68579/fast && D:/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_68579.dir/build.make CMakeFiles/cmTC_68579.dir/build
+make[1]: Entering directory 'D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68579.dir/testCCompiler.c.obj
+D:/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -o CMakeFiles/cmTC_68579.dir/testCCompiler.c.obj -c "D:/Desktop/浠?鎵嬪啓鑷繁鐨凩inux x86鎿嶄綔绯荤粺/婧愮爜+寮€鍙戝伐鍏?鍙傝€冭祫鏂?纾佺洏鏄犲儚/婧愮爜+璇句欢+寮€鍙戝伐鍏?鍙傝€冭祫鏂?纾佺洏鏄犲儚/璇剧▼婧愮爜/start/test/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+x86_64-elf-gcc.exe: error: D:/Desktop/浠?鎵嬪啓鑷繁鐨凩inux x86鎿嶄綔绯荤粺/婧愮爜+寮€鍙戝伐鍏?鍙傝€冭祫鏂?纾佺洏鏄犲儚/婧愮爜+璇句欢+寮€鍙戝伐鍏?鍙傝€冭祫鏂?纾佺洏鏄犲儚/璇剧▼婧愮爜/start/test/build/CMakeFiles/CMakeTmp/testCCompiler.c: Invalid argument
+x86_64-elf-gcc.exe: fatal error: no input files
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_68579.dir/build.make:78: CMakeFiles/cmTC_68579.dir/testCCompiler.c.obj] Error 1
+make[1]: Leaving directory 'D:/Desktop/从0手写自己的Linux x86操作系统/源码+开发工具+参考资料+磁盘映像/源码+课件+开发工具+参考资料+磁盘映像/课程源码/start/test/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_68579/fast] Error 2
+
+
+
